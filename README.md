@@ -5,7 +5,7 @@ Allows logging to the javascript console and also to a <pre> pane on the UI.
 
 Basic usage:
 
-#import("http://dartwatch.com/libraries/logger/dartwatch_logger_0.1.dart")
+\#import("http://dartwatch.com/libraries/logger/dartwatch_logger_0.1.dart")
 
 
 Optional:
