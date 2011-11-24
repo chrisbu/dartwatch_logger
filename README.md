@@ -9,7 +9,7 @@ Basic usage:
 
 
 Optional:
-Include in your html a <pre id="logLib"></pre>
+Include in your html a pre tag with id="logLib" (or some other id)
 wherever you would like your log messages to be output.
 If you don't include this, then logging just goes to the console.
 
@@ -17,7 +17,7 @@ If you don't include this, then logging just goes to the console.
 
 main() {
   //optional if not supplied, just output to js console
-  Logger.loggerElement = document.query('#logLib');
+  Logger.loggerElement = document.query('#logLib'); //reference the pre tag
 
   //optional - LOG_LEVEL_INFO by default
   Logger.logLevel = Logger.LOG_LEVEL_DEBUG;
